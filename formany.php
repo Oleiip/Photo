@@ -11,7 +11,7 @@ if (isset($_POST['name'], $_POST['email'], $_POST['text'])) {
     if (empty($name) || empty($email) || empty($text)) { //если что то не ввели
         echo 'Вы заполнили не все поля!';
     } else { //все поля заполнены, отправляем
-        $mailto = 'ваш@mail.ru, ваш_еще_один@mail.ru';
+        $mailto = 'andreyafrin@mail.ru';
         $subject = 'Сообщение с сайта';
 //формируем текст сообщения
         $message = 'Сообщение от пользователя <b>' . $name . '</b><br />';
